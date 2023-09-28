@@ -1,0 +1,41 @@
+#day{
+    width: 150px;
+    height: 110px;
+    margin-top: 0px;
+
+}
+
+#dev{
+    width: 100px;
+    height: 15px;
+}
+
+.bgcontainer{
+    height: 75%;
+    width: 50%;
+    display: flex ;
+    align-items: center;
+    margin-top: 0px;
+    flex-direction: column;
+    margin-left:350px;    
+}
+
+.bulb_on{
+    width: 150px;
+}
+
+.cat_light{
+    width:280px;
+}
+
+.button_1{
+    width: 100px;
+    height:75px;
+    padding-left:100px;
+    
+
+}
+
+.switch_on .switch_off{
+    padding-left: 15px
+}

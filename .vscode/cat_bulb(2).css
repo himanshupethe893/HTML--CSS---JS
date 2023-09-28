@@ -1,0 +1,36 @@
+.bgcontainer{
+    background-color: black;
+    padding-left: 145px;
+    height: 100%;
+    width:100%;
+    object-fit: fill;
+}
+
+.bulb_on {
+    padding-left: 500px;
+    width:250px
+}
+
+
+
+.cat_light {
+    padding-left: 300px;
+    padding-top: -10px;
+    width: 300px;
+    margin-left: 160px;
+}
+
+.button_1{
+    vertical-align: middle;
+    text-align: center;
+    background-color: #7b8794;
+    width: 80px;
+    height: 90px;
+    border-radius: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 32px;
+    padding-bottom: 25px;
+    margin-left: 550px;
+    margin-top: 25px;
+}

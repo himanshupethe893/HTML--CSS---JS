@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Cat and Bulb
+        </title>
+        <link rel="stylesheet" href="cat_bulb.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <meta name="robots" content="none,noarchive"/>
+    </head>
+    <body class="hell" id="hello" >
+    <div style="display: flex; flex-direction: row;" id="dev">
+        <img id="day" src="sunrise.png" alt="versions">
+    </div>
+    <div class="bgcontainer">    
+        <div >
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/bulb-go-on-img.png" alt="bulb-go-on-img"  class="bulb_on" id="bulb_light">
+        </div>
+        
+        <div >
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/cat-img.png" alt="cat-img" class="cat_light" id="cat">
+        </div>
+        <div class="button_1" style="size: 15px 5px; width: 150px; ">
+            <h4 class="switch_status" id="switchstatus" style="padding-left: 10px; padding-bottom: 2px; color:aquamarine">Switch ON</h4>
+            <button class="switch_off" id="switchoff" onclick="switchF()">
+                OFF
+            </button>
+            <button class="switch_on" id="on_switch" onclick="switchO()">
+                ON
+            </button>
+        </div>
+        <script src="cat_bulb.js"></script>
+    </div>
+    <!--do day or night time usiing if-else statement -->
+    </body>
+</html>
