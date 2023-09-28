@@ -18,19 +18,20 @@ function switchO()
     document.getElementById("hello").style.background="white";
 }
 
-const time=new Date().getHours();
-let greetings;
-if(time<11){
-    greetings="sunrise.png";
-}
-else if(time<17){
-    greetings="afternoon.png";
-}
-else if(time<19){
-    greetings="sunset.png";
-}
-else{
-    greetings="moon.png";
+const time1 = new Date();
+time1.setTime(time1.getTime() + (0 * 60 * 60 * 1000)); // Add 1 hour to the current time
+const hour = time1.getHours();
+let greeting;
+
+if (hour < 11) {
+    greeting = "sunrise.png";
+} else if (hour < 17) {
+    greeting = "afternoon.png";
+} else if (hour < 19) {
+    greeting = "sunset.png";
+} else {
+    greeting = "moon.png";
 }
 
-document.getElementById("day").src=greetings;
+document.getElementById("day").src = greeting;
+console.log(hour);
