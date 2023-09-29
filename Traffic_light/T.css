@@ -67,6 +67,6 @@ body{
     margin-left: 25px;
 }
 
-#stop button:hover{
-    background-color: blanchedalmond;
+.st:hover{
+    color: blanchedalmond;
 }
