@@ -34,7 +34,7 @@ body{
     height: 600px;
     align-content: center;
     margin-right: 50px;
-    border-radius: 15px;
+    border-radius: 45px;
     display:flex;
     flex-direction: column;
 }
@@ -123,14 +123,17 @@ body{
 
 .st:hover{
     background-image: linear-gradient(rgb(213, 3, 3),rgb(251, 56, 56));
+    text-transform:uppercase;
 }
 
 .wa:hover{
     background-image: linear-gradient(rgb(224, 224, 2),rgb(254, 254, 67));
+    text-transform:uppercase;
 }
 
 .go:hover{
     background-image: linear-gradient(green,rgb(41, 243, 41));
+    text-transform:uppercase;
 }
 
 #reset{
@@ -144,4 +147,9 @@ body{
     
     border-color: black;
     ;
+}
+
+.rt:hover{
+    background-image: linear-gradient(to bottom, blue, aqua);
+    text-transform:uppercase;
 }
