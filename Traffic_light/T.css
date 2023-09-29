@@ -1,4 +1,4 @@
-body{
+/* body{
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -67,6 +67,68 @@ body{
     margin-left: 25px;
 }
 
-.st:hover{
-    color: blanchedalmond;
+.butbox button:hover{
+    background-color: rgb(232, 155, 41);
+} */
+
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.outerbox {
+    background-color: black;
+    width: 475px;
+    height: 725px;
+    align-content: center;
+    border-radius: 23px;
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.innerbox {
+    background-image: linear-gradient(goldenrod, gold);
+    width: 175px;
+    height: 600px;
+    align-content: center;
+    margin-right: 50px;
+    border-radius: 15px;
+}
+
+.butbox {
+    width: 175px;
+    height: 600px;
+    margin-right: 25px;
+    border-radius: 15px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Add unique hover styles for each button */
+.st:hover {
+    background-color: red; /* Change the hover color for "Stop" button */
+}
+
+.wa:hover {
+    background-color: yellow; /* Specify the hover color for "Wait" button */;
+}
+
+.go:hover {
+    background-color: green;/* Specify the hover color for "Go" button */;
+}
+
+#stop,
+#wait,
+#Go {
+    background-color: darkblue;
+    color: white;
+    margin-top: 130px;
+    border-radius: 40px;
+    width: 131px;
+    height: 40px;
+    align-items: center;
+    margin-left: 25px;
 }
