@@ -1,7 +1,17 @@
-/* body{
+body{
     align-items: center;
     display: flex;
     flex-direction: column;
+    background-image: linear-gradient(to bottom, aqua, aqua);
+    border-image-repeat:round;
+}
+
+.head h1{
+    width: 475px;
+    text-align: center;
+    background: -webkit-linear-gradient(red,yellow,green); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .outerbox{
@@ -9,11 +19,14 @@
     width: 475px;
     height: 725px;
     align-content:center;
-    border-radius: 23px;
+    /* border-radius: 23px; */
     align-items: center;
     display: flex;
     flex-direction: row-reverse;
+    color: aqua;
+    
 }
+
 
 .innerbox{
     background-image:linear-gradient(goldenrod,gold) ;
@@ -22,6 +35,41 @@
     align-content: center;
     margin-right: 50px;
     border-radius: 15px;
+    display:flex;
+    flex-direction: column;
+}
+
+#sto{
+    width: 75px;
+    height: 75px;
+    border-radius: 360px;
+    background-color: gray;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 105px;
+    border-color: black;
+}
+
+#wai{
+    width: 75px;
+    height: 75px;
+    border-radius: 360px;
+    background-color: gray;
+    align-items: center;
+    margin-top: 105px;
+    margin-left: 50px;
+    border-color: black;
+}
+
+#gon{
+    width: 75px;
+    height: 75px;
+    border-radius: 360px;
+    background-color: gray;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 105px;
+    border-color: black;
 }
 
 .butbox{
@@ -29,106 +77,71 @@
     height: 600px;
     margin-right: 25px;
     border-radius: 15px;
-    background-color:aquamarine;
+    background-color:transparent;
     display: flex;
     flex-direction: column;
 }
 
 #stop{
-    background-color:darkblue ;
-    color: white;
+    background-color:gray ;
+    color: black;
     margin-top: 130px;
     border-radius: 40px;
     width: 131px;
     height: 40px;
     align-items: center;
     margin-left: 25px;
+    border-color: black;
+    border-style: hidden;
 }
 
 #wait{
-    background-color:darkblue ;
-    color: white;
+    background-color:gray ;
+    color: black;
     margin-top: 130px;
     border-radius: 40px;
     width: 131px;
     height: 40px;
     align-items: center;
     margin-left: 25px;
+    border-color: black;
+    border-style: hidden;
 }
 
 #Go{
-    background-color:darkblue ;
-    color: white;
+    background-color:gray ;
+    color:black;
     margin-top: 130px;
     border-radius: 40px;
     width: 131px;
     height: 40px;
     align-content: center;
     margin-left: 25px;
+    border-color: black;
+    border-style:hidden;
 }
 
-.butbox button:hover{
-    background-color: rgb(232, 155, 41);
-} */
-
-body {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+.st:hover{
+    background-image: linear-gradient(rgb(213, 3, 3),rgb(251, 56, 56));
 }
 
-.outerbox {
-    background-color: black;
-    width: 475px;
-    height: 725px;
-    align-content: center;
-    border-radius: 23px;
-    align-items: center;
-    display: flex;
-    flex-direction: row-reverse;
+.wa:hover{
+    background-image: linear-gradient(rgb(224, 224, 2),rgb(254, 254, 67));
 }
 
-.innerbox {
-    background-image: linear-gradient(goldenrod, gold);
-    width: 175px;
-    height: 600px;
-    align-content: center;
-    margin-right: 50px;
-    border-radius: 15px;
+.go:hover{
+    background-image: linear-gradient(green,rgb(41, 243, 41));
 }
 
-.butbox {
-    width: 175px;
-    height: 600px;
-    margin-right: 25px;
-    border-radius: 15px;
-    background-color: aquamarine;
-    display: flex;
-    flex-direction: column;
-}
-
-/* Add unique hover styles for each button */
-.st:hover {
-    background-color: red; /* Change the hover color for "Stop" button */
-}
-
-.wa:hover {
-    background-color: yellow; /* Specify the hover color for "Wait" button */;
-}
-
-.go:hover {
-    background-color: green;/* Specify the hover color for "Go" button */;
-}
-
-#stop,
-#wait,
-#Go {
-    background-color: darkblue;
-    color: white;
-    margin-top: 130px;
+#reset{
+    background-color:gray ;
+    color:black;
+    margin-top: 2px;
     border-radius: 40px;
-    width: 131px;
+    width: 121px;
     height: 40px;
-    align-items: center;
-    margin-left: 25px;
+    align-content: center;
+    
+    border-color: black;
+    ;
 }
