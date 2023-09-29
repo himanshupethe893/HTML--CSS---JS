@@ -1,0 +1,16 @@
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.bod{
+    align-content: center;
+    position: inherit;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    margin-top: 120px;
+    background-image: linear-gradient(to bottom, white, rgb(1, 247, 255));
+}
+
