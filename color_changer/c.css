@@ -5,6 +5,7 @@ body{
     background-repeat: no-repeat;
     background-size:100% ;
     background-position: 100%;
+    scroll-behavior:smooth ;
 }
 
 
@@ -53,7 +54,7 @@ body{
     text-decoration-style: dashed;
     text-transform: uppercase;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-    font-size: 150px;
+    font-size: 120px;
     font-style:oblique;
 }
 
