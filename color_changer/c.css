@@ -2,15 +2,82 @@ body{
     align-items: center;
     display: flex;
     flex-direction: column;
+    background-image: linear-gradient(to bottom, white, white);
 }
 
 .bod{
-    align-content: center;
-    position: inherit;
-    width: 200px;
-    height: 300px;
-    display: flex;
-    margin-top: 120px;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    /* display: flex; */
+    margin-top: 20px;
     background-image: linear-gradient(to bottom, white, rgb(1, 247, 255));
+    /* flex-direction: column; */
+    position: fixed;
 }
 
+.head1{
+    text-align: center;
+    background-image: linear-gradient(red, orange);
+    
+    height: 150px;
+    
+    display: flex;
+    flex-direction:column;
+}
+
+.head1 a{
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+    text-decoration-style: dashed;
+    text-transform: uppercase;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 50px;
+    font-style: oblique;
+}
+
+.head2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    border-radius: 40px;
+}
+
+.sub1 {
+    width: 150px;
+    height: 160px;
+    background-image: linear-gradient(to bottom, rgb(255, 128, 0),white, rgb(2, 109, 2));
+    margin-left: 20px;
+    border-radius: 40px;
+}
+
+.sub2{
+    width: 150px;
+    height: 160px;
+    background-image: linear-gradient(to bottom, orange, red);
+    margin-left: 20px;
+    border-radius: 40px;
+}
+
+.sub3{
+    width: 150px;
+    height: 160px;
+    background-image:linear-gradient(to bottom, aqua, darkblue);
+    margin-left: 20px;
+    border-radius: 40px;
+}
+
+.sub4{
+    width: 150px;
+    height: 160px;
+    background-image:('cloud.jpg');
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 40px;
+}
+
+.head3{
+    text-align: center;
+    margin-top: 40px;
+}
