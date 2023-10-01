@@ -8,3 +8,9 @@ body{
     display: flex;
     flex-direction: column;
  }
+.headimage{
+    align-content: stretch;
+}
+ #he1{
+    align-items: fixed;
+ }
