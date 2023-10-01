@@ -11,17 +11,16 @@ body{
 
 
 
-/* Your existing CSS remains unchanged */
+
 
 .bod {
-    /* Set a fixed size for the background container */
+    
     width: 1600px;
     height: 1600px;
-    /* Specify the background image */
+    
     background-image: linear-gradient(to bottom, white, rgb(1, 247, 255));
-    /* Ensure the background image doesn't repeat */
+    
     background-repeat: no-repeat;
-    /* Position the background image at the top-left corner of the container */
     background-position:100%;
     margin-top: 1200px;
     
