@@ -7,10 +7,25 @@ body{
     align-items: center;
     display: flex;
     flex-direction: column;
+    border-block-start-color: black;
+    border: 2px red;
  }
 .headimage{
     align-content: stretch;
+    background-color: black;
+}
+
+.headimage img{
+    width: 240px;
+    height: 120px;
+}
+.heading{
+    background-color: aqua;
 }
  #he1{
     align-items: fixed;
  }
+
+.but{
+
+}
