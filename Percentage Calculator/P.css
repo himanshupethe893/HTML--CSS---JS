@@ -21,11 +21,19 @@ body{
 }
 .heading{
     background-color: aqua;
+    font-family:cursive;
+    font-style: bold;
+    /* font-size: 17.7px; */
 }
  #he1{
     align-items: fixed;
  }
 
 .but{
-
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    color: black;
+    background:linear-gradient(to bottom,aqua, blue) ;
+    font-family: cursive;
 }
