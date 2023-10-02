@@ -37,3 +37,7 @@ body{
     background:linear-gradient(to bottom,aqua, blue) ;
     font-family: cursive;
 }
+
+.but:hover{
+    background:linear-gradient(to bottom, white, aqua);
+}
