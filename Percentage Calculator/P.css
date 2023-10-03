@@ -16,7 +16,7 @@ body{
 }
 
 .headimage img{
-    width: 240px;
+    width: 250px;
     height: 120px;
 }
 .heading{
@@ -40,4 +40,7 @@ body{
 
 .but:hover{
     background:linear-gradient(to bottom, white, aqua);
+    -webkit-transition: 1.0s;
+    transition: 1.0s;
 }
+ 
