@@ -1,3 +1,20 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "sqltools.connections": [
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 8080,
+            "driver": "MSSQL",
+            "name": "Training_Placement",
+            "database": "Training_Placement",
+            "username": "Himanshu",
+            "password": ""
+        }
+    ]
 }
